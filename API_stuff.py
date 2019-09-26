@@ -1,6 +1,6 @@
 import requests
 import json
-
+#LMAAOOOOO
 def get_user_info(id):
 	user = requests.get('https://api.github.com/users/{}/repos'.format(id))
 	user_data =json.loads(user.text)
